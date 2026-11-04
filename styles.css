@@ -149,7 +149,9 @@ section + section { border-top: 1px solid var(--rule); }
 .essay-list li { border-bottom: 1px solid var(--rule); }
 .essay-list a { display: grid; grid-template-columns: 7rem minmax(0, 1fr); gap: 1rem; padding: 1.25rem 0; color: var(--ink); text-decoration: none; }
 .essay-list a:hover h3 { color: var(--accent); }
-.essay-list time { font: 400 var(--step--1)/1.8 var(--mono); color: var(--muted); }
+.essay-list time, .essay-list .kind { font: 400 var(--step--1)/1.8 var(--mono); color: var(--muted); }
+.bio { max-width: var(--read); }
+.bio p { font-size: 1.125rem; line-height: 1.65; }
 .essay-list h3 { font-size: var(--step-1); margin-bottom: 0.3rem; }
 .essay-list p { margin: 0; color: var(--muted); }
 .empty { max-width: var(--read); padding: 1.5rem; background: var(--accent-soft); }
