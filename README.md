@@ -3,7 +3,7 @@
 Plain HTML + CSS. No build step. Hosted on GitHub Pages; every push to `main` goes live in a minute or two.
 
 ```
-index.html              home: hero, about, story, essays & speeches, contact
+index.html              home: hero, about, essays & speeches, contact
 styles.css              all styling (light + dark mode)
 writing/                PDFs listed under Essays & speeches
 essays/_template.html   copy this to write a web-page essay
